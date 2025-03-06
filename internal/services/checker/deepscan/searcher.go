@@ -10,7 +10,7 @@ import (
 	"strings"
 	"sync"
 
-	astUtil "github.com/fe3dback/go-arch-lint/internal/services/common/ast"
+	astUtil "github.com/amineck/go-arch-lint/internal/services/common/ast"
 	"golang.org/x/tools/go/packages"
 )
 

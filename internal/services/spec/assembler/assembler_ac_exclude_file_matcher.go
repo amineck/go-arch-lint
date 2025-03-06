@@ -3,9 +3,9 @@ package assembler
 import (
 	"regexp"
 
-	"github.com/fe3dback/go-arch-lint/internal/models/arch"
-	"github.com/fe3dback/go-arch-lint/internal/models/common"
-	"github.com/fe3dback/go-arch-lint/internal/services/spec"
+	"github.com/amineck/go-arch-lint/internal/models/arch"
+	"github.com/amineck/go-arch-lint/internal/models/common"
+	"github.com/amineck/go-arch-lint/internal/services/spec"
 )
 
 type excludeFilesMatcherAssembler struct{}

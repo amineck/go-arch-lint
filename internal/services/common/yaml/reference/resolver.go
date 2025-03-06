@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/fe3dback/go-arch-lint/internal/models/common"
+	"github.com/amineck/go-arch-lint/internal/models/common"
 	"github.com/fe3dback/go-yaml"
 	"github.com/fe3dback/go-yaml/parser"
 )

@@ -4,8 +4,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/fe3dback/go-arch-lint/internal/models"
-	"github.com/fe3dback/go-arch-lint/internal/models/arch"
+	"github.com/amineck/go-arch-lint/internal/models"
+	"github.com/amineck/go-arch-lint/internal/models/arch"
 )
 
 type (

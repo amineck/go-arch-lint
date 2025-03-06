@@ -2,7 +2,7 @@
 
 Linter used to enforce some good project structure and validate top level architecture (code layers) 
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/fe3dback/go-arch-lint)](https://goreportcard.com/report/github.com/fe3dback/go-arch-lint)
+[![Go Report Card](https://goreportcard.com/badge/github.com/amineck/go-arch-lint)](https://goreportcard.com/report/github.com/amineck/go-arch-lint)
 [![go-recipes](https://raw.githubusercontent.com/nikolaydubina/go-recipes/main/badge.svg?raw=true)](https://github.com/nikolaydubina/go-recipes)
 
 ## Quick start
@@ -78,7 +78,7 @@ docker run --rm -v ${PWD}:/app fe3dback/go-arch-lint:latest-stable-release check
 It require go 1.20+
 
 ```bash
-go install github.com/fe3dback/go-arch-lint@latest
+go install github.com/amineck/go-arch-lint@latest
 ```
 
 ```bash
@@ -90,7 +90,7 @@ go-arch-lint check
 
 #### Precompiled binaries
 
-[see on releases page](https://github.com/fe3dback/go-arch-lint/releases)
+[see on releases page](https://github.com/amineck/go-arch-lint/releases)
 
 ### IDE plugin for autocompletion and other help
 
@@ -174,7 +174,7 @@ This is useful to always check that your new code still respects your repo archi
 
 ```go
 repos:
-  - repo: https://github.com/fe3dback/go-arch-lint
+  - repo: https://github.com/amineck/go-arch-lint
     rev: master
     hooks:
       - id: go-arch-lint-check

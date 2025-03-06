@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/fe3dback/go-arch-lint/internal/models"
+	"github.com/amineck/go-arch-lint/internal/models"
 )
 
 type Operation struct {

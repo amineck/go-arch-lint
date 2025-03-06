@@ -11,8 +11,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/fe3dback/go-arch-lint/internal/models"
-	astUtil "github.com/fe3dback/go-arch-lint/internal/services/common/ast"
+	"github.com/amineck/go-arch-lint/internal/models"
+	astUtil "github.com/amineck/go-arch-lint/internal/services/common/ast"
 	"golang.org/x/tools/go/packages"
 )
 
